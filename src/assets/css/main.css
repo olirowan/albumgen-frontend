@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Nunito";
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+    unicode-range: U+000-5FF;
+    src: inherit
+}
+
+#more {
+    display: none;
+}
+
+.project-paragraph-desc {
+    text-align: justify;
+}
+
+.project-pallete-black {
+    --text-opacity: 1;
+    color: #1b1a19;
+    color: rgba(27, 26, 25, var(--text-opacity));
+}
+
+.project-pallete-grey {
+    --text-opacity: 1;
+    color: #403d3b;
+    color: rgba(64, 61, 59, var(--text-opacity));
+}
+
+.project-pallete-red {
+    --text-opacity: 1;
+    color: #e92323;
+    color: rgba(233, 35, 35, var(--text-opacity));
+}
+
+.project-pallete-brown {
+    --text-opacity: 1;
+    color: #e1b07e;
+    color: rgba(225, 176, 126, var(--text-opacity));
+}
+
+.project-pallete-blue {
+    --text-opacity: 1;
+    color: #7c99b4;
+    color: rgba(124, 153, 180, var(--text-opacity));
+}
+
+.project-pallete-teal {
+    --text-opacity: 1;
+    color: #247ba0;
+    color: rgba(36, 123, 160, var(--text-opacity));
+}
+
+.project-border-outline-red {
+    border: solid;
+    border-width: 2px;
+    --border-opacity: 1;
+    border-color: #e92323;
+    border-color: rgba(233, 35, 35, var(--border-opacity));
+}

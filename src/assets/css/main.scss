@@ -1,0 +1,20 @@
+// Importing Initial Variables
+
+@import "../../node_modules/bulma/sass/utilities/initial-variables";
+
+// Setting our own variables
+
+$blue: #06bcef;
+
+$family-sans-serif: "Helvetica",
+"Arial",
+sans-serif;
+
+// Set derived variables
+
+$primary: $pink;
+$danger: #0000ec;
+
+// Import the rest of Bulma
+
+@import "node_modules/bulma/bulma";
